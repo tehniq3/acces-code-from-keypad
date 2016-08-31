@@ -20,10 +20,10 @@ char keys[rows][cols] = {                // keys on keypad
 };
 // byte rowPins[rows] = {R0, R1, R2, R3};
 //byte colPins[cols] = {C0, C1, C2};
-// tastatura plata
+// tastatura plata (flat Adafruit style)
 //byte rowPins[rows] = {1, 2, 3, 4};
 //byte colPins[cols] = {5, 6, 7};
-// tastatura cu butoane in relief
+// tastatura cu butoane in relief - model KB304-PAW
 byte rowPins[rows] = {2, 7, 6, 4};
 byte colPins[cols] = {3, 1, 5};
 
